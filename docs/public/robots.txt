@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://rust-wiiu.github.io/sitemap.xml
