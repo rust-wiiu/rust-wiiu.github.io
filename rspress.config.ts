@@ -1,5 +1,6 @@
 import * as path from "node:path";
 import { defineConfig } from "rspress/config";
+import sitemap from "rspress-plugin-sitemap";
 
 export default defineConfig({
 	root: path.join(__dirname, "docs"),
@@ -30,5 +31,12 @@ export default defineConfig({
 				content: "b4YMomL0ZmniROBALqmQF1lqjg2R4uwoy_DjJWr47YY",
 			},
 		],
+	],
+	plugins: [
+		sitemap({
+			domain: "https://rust-wiiu.github.io",
+			defaultChangeFreq: "monthly",
+			defaultPriority: "0.5",
+		}),
 	],
 });

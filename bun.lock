@@ -5,6 +5,7 @@
       "name": "rust-wiiu.github.com",
       "dependencies": {
         "rspress": "^1.40.2",
+        "rspress-plugin-sitemap": "^1.1.2",
       },
       "devDependencies": {
         "@types/node": "^18.11.17",
@@ -643,6 +644,8 @@
     "rspack-plugin-virtual-module": ["rspack-plugin-virtual-module@0.1.13", "", { "dependencies": { "fs-extra": "^11.1.1" } }, "sha512-VC0HiVHH6dtGfTgfpbDgVTt6LlYv+uAg9CWGWAR5lBx9FbKPEZeGz7iRUUP8vMymx+PGI8ps0u4a25dne0rtuQ=="],
 
     "rspress": ["rspress@1.44.0", "", { "dependencies": { "@rsbuild/core": "~1.3.18", "@rspress/core": "1.44.0", "@rspress/shared": "1.44.0", "cac": "^6.7.14", "chokidar": "^3.6.0", "picocolors": "^1.1.1" }, "bin": { "rspress": "bin/rspress.js" } }, "sha512-ZEZblWRiXHFsD+sdOsGtHok8fZ1YT9wc9aE20WT1+1HGAjybYSppcVYs+eJsLwhlemWn6JS++FwrP4hUfUaprA=="],
+
+    "rspress-plugin-sitemap": ["rspress-plugin-sitemap@1.1.2", "", {}, "sha512-dvmEbBUnyU3qkapjBz4WcpP0BIkJdljORFiuJ92wr0Vt/b/ff7cFlaRcAYtKq/g1y7JAdA+qzy3gjnNg0TqNow=="],
 
     "rxjs": ["rxjs@7.8.2", "", { "dependencies": { "tslib": "^2.1.0" } }, "sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA=="],
 
