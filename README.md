@@ -1,4 +1,6 @@
-# homepage
+[![GitHub Pages](https://github.com/rust-wiiu/rust-wiiu.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/rust-wiiu/rust-wiiu.github.io/actions/workflows/deploy.yml)
+
+# rust-wiiu.github.io
 
 To install dependencies:
 
