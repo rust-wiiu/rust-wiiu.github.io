@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@tailwind utilities;
+
+/* select div children of carousel */
+.carousel > div {
+    @apply my-auto carousel-item relative w-full;
+}
+
+/* select a div under .carousel (even multiple levels) which has the carousel-btn class */
+.carousel > div .carousel-btn {
+    @apply absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between;
+}
+
+.carousel-btn > a {
+    @apply btn btn-circle;
+}
+
+.card-title > a {
+    @apply hover:scale-105;
+}

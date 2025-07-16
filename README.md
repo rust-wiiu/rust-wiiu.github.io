@@ -1,29 +1,21 @@
-# rust-wiiu Homepage
+# homepage
 
-## Setup
-
-Install the dependencies:
+To install dependencies:
 
 ```bash
 bun install
 ```
 
-## Get started
-
-Start the dev server:
+To run:
 
 ```bash
 bun run dev
 ```
 
-Build the website for production:
+To build:
 
 ```bash
 bun run build
 ```
 
-Preview the production build locally:
-
-```bash
-bun run preview
-```
+This project was created using `bun init` in bun v1.2.17. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
