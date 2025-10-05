@@ -7,7 +7,7 @@ on:
       - README.md
       - .gitignore
       - LICENSE
-      - .github/workflows/sitemap.xml
+      - .github/workflows/sitemap.yml
   workflow_dispatch:
 
 
