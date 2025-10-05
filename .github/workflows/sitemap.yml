@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v5
       - name: Generate Sitemap
         run: |
-          npx sitemap-generator-cli https://rust-wiiu.github.io/ --output sitemap.xml  --strip-query-string
+          npx sitemap-generator-cli https://rust-wiiu.github.io/ -l -p "1.0,0.8,0.6,0.4" -g "monthly"
           if [ ! -s sitemap.xml ]; then
             echo "Error: sitemap.xml was not generated or is empty."
             exit 1
