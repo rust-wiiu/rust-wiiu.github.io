@@ -4,9 +4,10 @@ on:
   push:
     branches: [ main ]
     paths-ignore:
-      - 'README.md'
-      - '.gitignore'
-      - 'LICENSE'
+      - README.md
+      - .gitignore
+      - LICENSE
+      - .github/workflows/sitemap.xml
   workflow_dispatch:
 
 
